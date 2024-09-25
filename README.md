@@ -12,8 +12,8 @@
 
 Bu C CheatSheet sayfası, size C dilinin sözdiziminin hızlı bir tekrarını sağlamayı amaçlamaktadır. Sınavlarından hemen önce sözdiziminin hızlı bir şekilde tekrarına ihtiyaç duyan öğrenciler veya profesyonellerin C dili sözdizimine hızlıca bakmaları için faydalı olacaktır. Temel bilgilerle başlayalım ve C programlamanın daha karmaşık yönlerine doğru ilerleyelim.
 
-| Index | Index |
-|-----|---------|
+| Index | Index | Index |
+|-----|---------|-------|
 | [Temeller](#temeller) | [Mola (break)](#mola-break) |
 | [Kazan Plakası](#kazan-plakası-kodu) | [Devam (continue)](#continue-devam) |
 | [printf](#printf-işlevi) | [Function Definition](#işlev-tanımı-function-definition) |
@@ -39,7 +39,7 @@ Bu C CheatSheet sayfası, size C dilinin sözdiziminin hızlı bir tekrarını s
 | [Sekizli No. (Octal No.)](#sekizli-no-octal-no) | [FILE Pointer](#file-pointer) |
 | [Onaltılık No. (Hexadecimal No.)](#onaltılık-no-hexadecimal-no) | [Dosya açma](#dosya-açma) |
 | [Null](#null) | [fscanf ()](#fscanf) |
-| [if)](#if) | [fprintf ()](#fprintf) |
+| [if](#if) | [fprintf ()](#fprintf) |
 | [if-else](#if-else) | [fgetc ()](#fgetc) |
 | [if else-if](#if-else-if) | [fputc ()](#fputc) |
 | [İç içe if-else](#iç-içe-if-else) | [Dosyayı kapatma](#dosyayı-kaptma) |
