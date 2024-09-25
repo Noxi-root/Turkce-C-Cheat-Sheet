@@ -38,7 +38,7 @@ Bu C CheatSheet sayfası, size C dilinin sözdiziminin hızlı bir tekrarını s
 * [Sekizli No. (Octal No.)](#sekizli-no-octal-no)
 * [Onaltılık No. (Hexadecimal No.)](#onaltılık-no-hexadecimal-no)
 * [Null](#null)
-* [if)](#if)
+* [if](#if)
 * [if-else](#if-else)
 * [if else-if](#if-else-if)
 * [İç içe if-else](#iç-içe-if-else)
