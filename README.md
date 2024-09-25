@@ -12,8 +12,8 @@
 
 Bu C CheatSheet sayfası, size C dilinin sözdiziminin hızlı bir tekrarını sağlamayı amaçlamaktadır. Sınavlarından hemen önce sözdiziminin hızlı bir şekilde tekrarına ihtiyaç duyan öğrenciler veya profesyonellerin C dili sözdizimine hızlıca bakmaları için faydalı olacaktır. Temel bilgilerle başlayalım ve C programlamanın daha karmaşık yönlerine doğru ilerleyelim.
 
-| Index |
-|-----|
+| Index | Index |
+|-----|---------|
 | [Temeller](#temeller) | [Mola (break)](#mola-break) |
 | [Kazan Plakası](#kazan-plakası-kodu) | [Devam (continue)](#continue-devam) |
 | [printf](#printf-işlevi) | [Function Definition](#işlev-tanımı-function-definition) |
