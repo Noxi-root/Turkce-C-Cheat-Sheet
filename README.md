@@ -2,7 +2,7 @@
 
 <hr>
 <p align="center">
-	<img alt="C" src="" height="190" width="455">
+	<img alt="C" src="img/C-Cheat-Sheet.jpg" height="190" width="455">
 </p>
 <hr>
 
