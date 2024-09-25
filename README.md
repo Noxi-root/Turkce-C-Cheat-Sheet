@@ -2,7 +2,7 @@
 
 <hr>
 <p align="center">
-	<img alt="C" src="img/C-Cheat-Sheet.jpg" height="190" width="455">
+	<img alt="C" src="img/C-Cheat-Sheet.jpg" height="190" width="1100">
 </p>
 <hr>
 
@@ -14,7 +14,7 @@
 
 ---
 
-<h1 align="center">C CheatSheet</h1>
+<h1 align="center">C Cheat Sheet</h1>
 
 Bu C CheatSheet sayfası, size C dilinin sözdiziminin hızlı bir tekrarını sağlamayı amaçlamaktadır. Sınavlarından hemen önce sözdiziminin hızlı bir şekilde tekrarına ihtiyaç duyan öğrenciler veya profesyonellerin C dili sözdizimine hızlıca bakmaları için faydalı olacaktır. Temel bilgilerle başlayalım ve C programlamanın daha karmaşık yönlerine doğru ilerleyelim.
 
