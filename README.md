@@ -14,73 +14,39 @@ Bu C CheatSheet sayfası, size C dilinin sözdiziminin hızlı bir tekrarını s
 
 | Index |
 |-----|
-| [Temeller](#temeller) |
-| [Kazan Plakası](#kazan-plakası-kodu) |
-| [printf](#printf-işlevi) |
-| [scanf](#tarama-işlevi-scanf) |
-| [Tek satır yorumu](#tek-satır-yorumu) |
-| [Çok satırlı yorum](#çok-satırlı-yorum) |
-| [Veri türleri](#veri-türleri) |
-| [Karakter türü (Character)](#karakter-türü-character) |
-| [Tamsayı türü (Integer)](#tamsayı-türü-integer) |
-| [Şamandıra tipi (float)](#şamandıra-tipi-float) |
-| [Çift tip (double)](#çift-tip-double) |
-| [Geçersiz tip (Void)](#geçersiz-tip-void) |
-| [Kaçış Dizileri](#kaçış-dizileri) |
-| [Alarm veya Bip](#alarm-veya-bip) |
-| [Geri Boşluk](#geri-boşluk) |
-| [Form feed](#form-feed) |
-| [Newline](#newline) |
-| [Taşıma iadesi (Carriage return)](#taşıma-iadesi-carriage-return) |
-| [Sekme (Tab)](#sekme-tab) |
-| [Ters Eğik Çizgi (Backslash)](#ters-eğik-çizgi-backslash) |
-| [Tek teklif (Single quote)](#tek-teklif-single-quote) |
-| [Soru işareti (Question mark)](#question-mark) |
-| [Sekizli No. (Octal No.)](#sekizli-no-octal-no) |
-| [Onaltılık No. (Hexadecimal No.)](#onaltılık-no-hexadecimal-no) |
-| [Null](#null) |
-| [if)](#if) |
-| [if-else](#if-else) |
-| [if else-if](#if-else-if) |
-| [İç içe if-else](#iç-içe-if-else) |
-| [Switch Case](#switch-case) |
-| [while döngüsü (loop)](#while-döngüsü-loop) |
-| [do-while döngüsü](#do-while-döngüsü) |
-| [for döngüsü (loop)](#for-döngüsü-loop) |
-| [Mola (break)](#mola-break) |
-| [Devam (continue)](#continue-devam) |
-| [Function Definition](#işlev-tanımı-function-definition) |
-| [Function Call](#işlev-çağrısı-function-call) |
-| [return_type](#fonksiyonlarda-dönüş-tipi-return_type) |
-| [C fonksiyonlarında parametreler](#c-fonksiyonlarında-parametreler) |
-| [Pointers](#pointers-işaretçiler) |
-| [Pointer değişkeninin referansını alma](#işaretçi-pointer-değişkeninin-referansını-alma) |
-| [Diziler (Arrays)](#diziler-arrays) |
-| [Strings](#teller-strings) |
-| [gets ()](#gets) |
-| [puts ()](#puts) |
-| [fgets ()](#fgets) |
-| [String Functions](#dize-işlevleri-string-functions) |
-| [strlen ()](#strlen) |
-| [strcpy ()](#strcopy) |
-| [strcat ()](#strcat) |
-| [strcmp ()](#strcmp) |
-| [strlwr ()](#strlwr) |
-| [strupr ()](#strupr) |
-| [strrev ()](#strrev) |
-| [Yapı sözdizimi (Structure syntax)](#yapı-sözdizimi-structure-syntax) |
-| [typedef](#typdef-anahtar-sözcüğü) |
-| [FILE Pointer](#file-pointer) |
-| [Dosya açma](#dosya-açma) |
-| [fscanf ()](#fscanf) |
-| [fprintf ()](#fprintf) |
-| [fgetc ()](#fgetc) |
-| [fputc ()](#fputc) |
-| [Dosyayı kapatma](#dosyayı-kaptma) |
-| [malloc ()](#malloc) |
-| [calloc ()](#calloc) |
-| [Serbest Fonksiyon (free function)](#serbest-fonksiyon-free-function) |
-| [realloc ()](#realloc) |
+| [Temeller](#temeller) | [Mola (break)](#mola-break) |
+| [Kazan Plakası](#kazan-plakası-kodu) | [Devam (continue)](#continue-devam) |
+| [printf](#printf-işlevi) | [Function Definition](#işlev-tanımı-function-definition) |
+| [scanf](#tarama-işlevi-scanf) | [Function Call](#işlev-çağrısı-function-call) |
+| [Tek satır yorumu](#tek-satır-yorumu) | [return_type](#fonksiyonlarda-dönüş-tipi-return_type) |
+| [Çok satırlı yorum](#çok-satırlı-yorum) | [C fonksiyonlarında parametreler](#c-fonksiyonlarında-parametreler) |
+| [Veri türleri](#veri-türleri) | [Pointers](#pointers-işaretçiler) | [Pointer değişkeninin referansını alma](#işaretçi-pointer-değişkeninin-referansını-alma) |
+| [Karakter türü (Character)](#karakter-türü-character) | [Diziler (Arrays)](#diziler-arrays) |
+| [Tamsayı türü (Integer)](#tamsayı-türü-integer) | [Strings](#teller-strings) |
+| [Şamandıra tipi (float)](#şamandıra-tipi-float) | [gets ()](#gets) |
+| [Çift tip (double)](#çift-tip-double) | [puts ()](#puts) |
+| [Geçersiz tip (Void)](#geçersiz-tip-void) | [fgets ()](#fgets) |
+| [Kaçış Dizileri](#kaçış-dizileri) | [String Functions](#dize-işlevleri-string-functions) |
+| [Alarm veya Bip](#alarm-veya-bip) | [strlen ()](#strlen) |
+| [Geri Boşluk](#geri-boşluk) | [strcpy ()](#strcopy) |
+| [Form feed](#form-feed) | [strcat ()](#strcat) |
+| [Newline](#newline) | [strcmp ()](#strcmp) |
+| [Taşıma iadesi (Carriage return)](#taşıma-iadesi-carriage-return) | [strlwr ()](#strlwr) |
+| [Sekme (Tab)](#sekme-tab) | [strupr ()](#strupr) |
+| [Ters Eğik Çizgi (Backslash)](#ters-eğik-çizgi-backslash) | [strrev ()](#strrev) |
+| [Tek teklif (Single quote)](#tek-teklif-single-quote) | [Yapı sözdizimi (Structure syntax)](#yapı-sözdizimi-structure-syntax) |
+| [Soru işareti (Question mark)](#question-mark) | [typedef](#typdef-anahtar-sözcüğü) |
+| [Sekizli No. (Octal No.)](#sekizli-no-octal-no) | [FILE Pointer](#file-pointer) |
+| [Onaltılık No. (Hexadecimal No.)](#onaltılık-no-hexadecimal-no) | [Dosya açma](#dosya-açma) |
+| [Null](#null) | [fscanf ()](#fscanf) |
+| [if)](#if) | [fprintf ()](#fprintf) |
+| [if-else](#if-else) | [fgetc ()](#fgetc) |
+| [if else-if](#if-else-if) | [fputc ()](#fputc) |
+| [İç içe if-else](#iç-içe-if-else) | [Dosyayı kapatma](#dosyayı-kaptma) |
+| [Switch Case](#switch-case) | [malloc ()](#malloc) |
+| [while döngüsü (loop)](#while-döngüsü-loop) | [calloc ()](#calloc) |
+| [do-while döngüsü](#do-while-döngüsü) | [Serbest Fonksiyon (free function)](#serbest-fonksiyon-free-function) |
+| [for döngüsü (loop)](#for-döngüsü-loop) | [realloc ()](#realloc) |
 
 ## Temeller
 C programlama dilinden temel söz dizimi ve işlevler.
@@ -622,7 +588,6 @@ typedef struct structureName
 } new_name;
 ```
 # Dosya İşleme (File Handling)
-
 ## DOSYA işaretçisi (FILE Pointer)
 ```
 FILE *filePointer;
