@@ -651,3 +651,4 @@ Ayrılan bellek yetersizse, verimlilik amacıyla bu işlevi kullanarak önceden 
 ```
 ptr = realloc(ptr, x);
 ```
+## Index'e gitmek için [*TIKLAYIN*](#index)
